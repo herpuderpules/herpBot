@@ -5,6 +5,9 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+var irc = require('./irc/irc');
+var twitter = require('./twitter/twitter');
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
